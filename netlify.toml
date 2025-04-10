@@ -1,0 +1,9 @@
+[build]
+  command = "echo 'No build needed for PHP'"
+  publish = "public"
+  functions = "functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.php"
+  status = 200
