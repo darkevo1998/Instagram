@@ -1,5 +1,5 @@
 [build]
-  command = "echo 'No build needed for PHP'"
+  command = "php -v && cp -R ../assets public/assets && cp ../index.php public/index.php"
   publish = "public"
   functions = "functions"
 
@@ -7,3 +7,9 @@
   from = "/*"
   to = "/index.php"
   status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
