@@ -1,0 +1,266 @@
+[2025-04-13 07:08:55] Script started processing Instagram callback
+[2025-04-13 07:08:55] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:08:55] Session data at start: {"instagram_auth_state":"c9253bf139c0ad4bdf7d4dad44aa5fc8"}
+[2025-04-13 07:08:55] Script completed without matching any condition
+[2025-04-13 07:09:00] Script started processing Instagram callback
+[2025-04-13 07:09:00] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:09:00] Session data at start: {"instagram_auth_state":"1758004ea825e6fd19646fcdd1fad86a"}
+[2025-04-13 07:09:00] Received code and state parameters from Instagram
+[2025-04-13 07:09:00] Received state: 1758004ea825e6fd19646fcdd1fad86a
+[2025-04-13 07:09:00] Expected state: NOT SET IN SESSION
+[2025-04-13 07:09:00] ERROR: No state parameter found in session
+[2025-04-13 07:09:00] Script started processing Instagram callback
+[2025-04-13 07:09:00] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:09:00] Session data at start: {"instagram_auth_state":"1758004ea825e6fd19646fcdd1fad86a","error":"Session expired. Please try logging in again."}
+[2025-04-13 07:09:00] Script completed without matching any condition
+[2025-04-13 07:10:31] Script started processing Instagram callback
+[2025-04-13 07:10:31] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:10:31] Session data at start: {"instagram_auth_state":"92e6617532e1d1a687b7565f304465c2"}
+[2025-04-13 07:10:31] Script completed without matching any condition
+[2025-04-13 07:10:37] Script started processing Instagram callback
+[2025-04-13 07:10:37] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:10:37] Session data at start: {"instagram_auth_state":"797791a6e29190803dcb7e41c032b5bf"}
+[2025-04-13 07:10:37] Received code and state parameters from Instagram
+[2025-04-13 07:10:37] Received state: 797791a6e29190803dcb7e41c032b5bf
+[2025-04-13 07:10:37] Expected state: NOT SET IN SESSION
+[2025-04-13 07:10:37] ERROR: No state parameter found in session
+[2025-04-13 07:10:37] Script started processing Instagram callback
+[2025-04-13 07:10:37] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:10:37] Session data at start: {"instagram_auth_state":"797791a6e29190803dcb7e41c032b5bf","error":"Session expired. Please try logging in again."}
+[2025-04-13 07:10:37] Script completed without matching any condition
+[2025-04-13 07:14:30] Script started processing Instagram callback
+[2025-04-13 07:14:30] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:14:30] Session data at start: {"instagram_auth_state":"18b33435e0969f61afa817dcb737deac"}
+[2025-04-13 07:14:30] Script completed without matching any condition
+[2025-04-13 07:14:40] Script started processing Instagram callback
+[2025-04-13 07:14:40] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:14:40] Session data at start: {"instagram_auth_state":"6d0d694323d6aa1748e8080392685b90"}
+[2025-04-13 07:14:40] Received code and state parameters from Instagram
+[2025-04-13 07:14:40] Received state: 6d0d694323d6aa1748e8080392685b90
+[2025-04-13 07:14:40] Expected state (instagram_auth_state): 6d0d694323d6aa1748e8080392685b90
+[2025-04-13 07:14:40] Expected state (state): NOT SET
+[2025-04-13 07:14:40] State validation successful - proceeding with token exchange
+[2025-04-13 07:14:40] Attempting to get access token
+[2025-04-13 07:14:40] EXCEPTION: Invalid state parameter
+[2025-04-13 07:14:40] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(69): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:14:40] Script started processing Instagram callback
+[2025-04-13 07:14:40] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:14:40] Session data at start: {"error":"Failed to authenticate with Instagram: Invalid state parameter"}
+[2025-04-13 07:14:40] Script completed without matching any condition
+[2025-04-13 07:19:55] Script started processing Instagram callback
+[2025-04-13 07:19:57] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:19:57] Session data at start: {"instagram_auth_state":"4439dd04bb569f5d2f98dc49e24d16fc"}
+[2025-04-13 07:19:57] Script completed without matching any condition
+[2025-04-13 07:20:07] Script started processing Instagram callback
+[2025-04-13 07:20:07] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:20:07] Session data at start: {"instagram_auth_state":"9f42223e617c27031008758f0ded7578"}
+[2025-04-13 07:20:07] Received code and state parameters from Instagram
+[2025-04-13 07:20:07] Received state: 9f42223e617c27031008758f0ded7578
+[2025-04-13 07:20:07] Expected state (instagram_auth_state): 9f42223e617c27031008758f0ded7578
+[2025-04-13 07:20:07] Expected state (state): NOT SET
+[2025-04-13 07:20:07] State validation successful - proceeding with token exchange
+[2025-04-13 07:20:07] Attempting to get access token with code and validated state
+[2025-04-13 07:20:07] EXCEPTION: Invalid state parameter
+[2025-04-13 07:20:07] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(70): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:20:07] Script started processing Instagram callback
+[2025-04-13 07:20:07] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:20:07] Session data at start: {"error":"Failed to authenticate with Instagram: Invalid state parameter"}
+[2025-04-13 07:20:07] Script completed without matching any condition
+[2025-04-13 07:20:53] Script started processing Instagram callback
+[2025-04-13 07:20:53] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:20:53] Session data at start: {"instagram_auth_state":"6290627f75fb6b074e4adf792c1f071b"}
+[2025-04-13 07:20:53] Script completed without matching any condition
+[2025-04-13 07:20:59] Script started processing Instagram callback
+[2025-04-13 07:20:59] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:20:59] Session data at start: {"instagram_auth_state":"2095031609a753d5c08dd71316158d5b"}
+[2025-04-13 07:20:59] Received code and state parameters from Instagram
+[2025-04-13 07:20:59] Received state: 2095031609a753d5c08dd71316158d5b
+[2025-04-13 07:20:59] Expected state (instagram_auth_state): 2095031609a753d5c08dd71316158d5b
+[2025-04-13 07:20:59] Expected state (state): NOT SET
+[2025-04-13 07:20:59] State validation successful - proceeding with token exchange
+[2025-04-13 07:20:59] Attempting to get access token with code and validated state
+[2025-04-13 07:20:59] EXCEPTION: Invalid state parameter
+[2025-04-13 07:20:59] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(70): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:20:59] Script started processing Instagram callback
+[2025-04-13 07:20:59] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:20:59] Session data at start: {"error":"Failed to authenticate with Instagram: Invalid state parameter"}
+[2025-04-13 07:20:59] Script completed without matching any condition
+[2025-04-13 07:23:25] Script started processing Instagram callback
+[2025-04-13 07:23:25] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:23:25] Session data at start: {"instagram_auth_state":"0d86c316d4ba32b0b89161f10f55a981"}
+[2025-04-13 07:23:25] Script completed without matching any condition
+[2025-04-13 07:23:27] Script started processing Instagram callback
+[2025-04-13 07:23:27] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:23:27] Session data at start: {"instagram_auth_state":"3594f85040e18cba90a271fe0b81ae73"}
+[2025-04-13 07:23:27] Script completed without matching any condition
+[2025-04-13 07:23:34] Script started processing Instagram callback
+[2025-04-13 07:23:34] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:23:34] Session data at start: {"instagram_auth_state":"1e7f86c63edbb5262ebca17cdd26d94b"}
+[2025-04-13 07:23:34] Received code and state parameters from Instagram
+[2025-04-13 07:23:34] Received state: 1e7f86c63edbb5262ebca17cdd26d94b
+[2025-04-13 07:23:34] Expected state (instagram_auth_state): 1e7f86c63edbb5262ebca17cdd26d94b
+[2025-04-13 07:23:34] Expected state (state): NOT SET
+[2025-04-13 07:23:34] State validation successful - proceeding with token exchange
+[2025-04-13 07:23:34] Attempting to get access token with code and validated state
+[2025-04-13 07:23:34] EXCEPTION: Invalid state parameter
+[2025-04-13 07:23:34] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(70): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:23:34] Script started processing Instagram callback
+[2025-04-13 07:23:34] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:23:34] Session data at start: {"error":"Failed to authenticate with Instagram: Invalid state parameter"}
+[2025-04-13 07:23:34] Script completed without matching any condition
+[2025-04-13 07:26:15] Script started processing Instagram callback
+[2025-04-13 07:26:15] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:26:15] Session data at start: {"instagram_auth_state":"b2778b68542f383cbf803747e49b2207"}
+[2025-04-13 07:26:15] Script completed without matching any condition
+[2025-04-13 07:26:21] Script started processing Instagram callback
+[2025-04-13 07:26:21] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:26:21] Session data at start: {"instagram_auth_state":"325be03b04b9a8d05fa495acffb4a7e3"}
+[2025-04-13 07:26:21] Received code and state parameters from Instagram
+[2025-04-13 07:26:21] Received state: 325be03b04b9a8d05fa495acffb4a7e3
+[2025-04-13 07:26:21] Expected state (instagram_auth_state): 325be03b04b9a8d05fa495acffb4a7e3
+[2025-04-13 07:26:21] State validation successful - proceeding with token exchange
+[2025-04-13 07:26:21] Attempting to get access token with code and validated state
+[2025-04-13 07:26:21] EXCEPTION: Invalid state parameter
+[2025-04-13 07:26:21] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(67): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:26:21] Script started processing Instagram callback
+[2025-04-13 07:26:21] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:26:21] Session data at start: {"error":"Failed to authenticate with Instagram: Invalid state parameter"}
+[2025-04-13 07:26:21] Script completed without matching any condition
+[2025-04-13 07:30:05] Script started processing Instagram callback
+[2025-04-13 07:30:05] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:30:05] Session data at start: {"instagram_auth_state":"e196048fd18ee740947a0d869af05b49"}
+[2025-04-13 07:30:05] Script completed without matching any condition
+[2025-04-13 07:30:11] Script started processing Instagram callback
+[2025-04-13 07:30:11] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:30:11] Session data at start: {"instagram_auth_state":"2d943b93385a4fa52cb59d460a422bc2"}
+[2025-04-13 07:30:11] Received code and state parameters from Instagram
+[2025-04-13 07:30:11] Received state: 2d943b93385a4fa52cb59d460a422bc2
+[2025-04-13 07:30:11] Expected state (instagram_auth_state): 2d943b93385a4fa52cb59d460a422bc2
+[2025-04-13 07:30:11] State validation successful - proceeding with token exchange
+[2025-04-13 07:30:11] Attempting to get access token with code and validated state
+[2025-04-13 07:30:20] EXCEPTION: Failed to get access token: 
+[2025-04-13 07:30:20] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(65): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:30:20] Script started processing Instagram callback
+[2025-04-13 07:30:20] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:30:20] Session data at start: {"instagram_auth_state":"2d943b93385a4fa52cb59d460a422bc2","error":"Failed to authenticate with Instagram: Failed to get access token: "}
+[2025-04-13 07:30:20] Script completed without matching any condition
+[2025-04-13 07:32:04] Script started processing Instagram callback
+[2025-04-13 07:32:04] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:32:04] Session data at start: {"instagram_auth_state":"1c8874ee1ecad5653f88fec28b79381c"}
+[2025-04-13 07:32:04] Script completed without matching any condition
+[2025-04-13 07:32:11] Script started processing Instagram callback
+[2025-04-13 07:32:11] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:32:11] Session data at start: {"instagram_auth_state":"9427166c961f2757ad84b0d29ecf6179"}
+[2025-04-13 07:32:11] Received code and state parameters from Instagram
+[2025-04-13 07:32:11] Received state: 9427166c961f2757ad84b0d29ecf6179
+[2025-04-13 07:32:11] Expected state (instagram_auth_state): 9427166c961f2757ad84b0d29ecf6179
+[2025-04-13 07:32:11] State validation successful - proceeding with token exchange
+[2025-04-13 07:32:11] Attempting to get access token with code and validated state
+[2025-04-13 07:32:11] EXCEPTION: Failed to get access token:  - cURL Error: SSL certificate problem: unable to get local issuer certificate
+[2025-04-13 07:32:11] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(65): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-13 07:32:11] Script started processing Instagram callback
+[2025-04-13 07:32:11] Session already active. Session ID: 7b127a3f18ebc976cd0c7f699a206e72
+[2025-04-13 07:32:11] Session data at start: {"instagram_auth_state":"9427166c961f2757ad84b0d29ecf6179","error":"Failed to authenticate with Instagram: Failed to get access token:  - cURL Error: SSL certificate problem: unable to get local issuer certificate"}
+[2025-04-13 07:32:11] Script completed without matching any condition
+[2025-04-15 08:15:53] Script started processing Instagram callback
+[2025-04-15 08:15:54] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 08:15:54] Session data at start: []
+[2025-04-15 08:15:54] Script completed without matching any condition
+[2025-04-15 08:15:54] Script started processing Instagram callback
+[2025-04-15 08:15:54] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 08:15:54] Session data at start: {"instagram_auth_state":"a7439f1c9a1e63bf50fe85fd3b73e4b9"}
+[2025-04-15 08:15:54] Script completed without matching any condition
+[2025-04-15 08:16:24] Script started processing Instagram callback
+[2025-04-15 08:16:24] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 08:16:24] Session data at start: {"instagram_auth_state":"a7439f1c9a1e63bf50fe85fd3b73e4b9"}
+[2025-04-15 08:16:24] Received code and state parameters from Instagram
+[2025-04-15 08:16:24] Received state: a7439f1c9a1e63bf50fe85fd3b73e4b9
+[2025-04-15 08:16:24] Expected state (instagram_auth_state): a7439f1c9a1e63bf50fe85fd3b73e4b9
+[2025-04-15 08:16:24] State validation successful - proceeding with token exchange
+[2025-04-15 08:16:24] Attempting to get access token with code and validated state
+[2025-04-15 08:16:25] EXCEPTION: Failed to get access token:  - cURL Error: SSL certificate problem: unable to get local issuer certificate
+[2025-04-15 08:16:25] Stack trace: #0 D:\downloads\insatgram testing\includes\auth.php(65): InstagramAuth->getAccessToken()
+#1 D:\downloads\insatgram testing\index.php(6): require_once('...')
+#2 {main}
+[2025-04-15 08:16:25] Script started processing Instagram callback
+[2025-04-15 08:16:25] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 08:16:25] Session data at start: {"instagram_auth_state":"a7439f1c9a1e63bf50fe85fd3b73e4b9","error":"Failed to authenticate with Instagram: Failed to get access token:  - cURL Error: SSL certificate problem: unable to get local issuer certificate"}
+[2025-04-15 08:16:25] Script completed without matching any condition
+[2025-04-15 10:21:40] Script started processing Instagram callback
+[2025-04-15 10:21:40] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:21:40] Session data at start: []
+[2025-04-15 10:21:40] Script completed without matching any condition
+[2025-04-15 10:22:31] Script started processing Instagram callback
+[2025-04-15 10:22:31] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:22:31] Session data at start: {"instagram_auth_state":"a3abf4404c2cb662848c30fbf10b42fe"}
+[2025-04-15 10:22:31] Script completed without matching any condition
+[2025-04-15 10:30:23] Script started processing Instagram callback
+[2025-04-15 10:30:23] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:30:23] Session data at start: {"instagram_auth_state":"381c3dddf038d7dffb04d17d70124fda"}
+[2025-04-15 10:30:23] Script completed without matching any condition
+[2025-04-15 10:31:14] Script started processing Instagram callback
+[2025-04-15 10:31:14] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:31:14] Session data at start: {"instagram_auth_state":"d2d7287e8207120a874d1ad16fa3053b"}
+[2025-04-15 10:31:14] Script completed without matching any condition
+[2025-04-15 10:33:04] Script started processing Instagram callback
+[2025-04-15 10:33:04] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:33:04] Session data at start: {"instagram_auth_state":"86c9d20769a4627d72fe7bd95b7e5f39"}
+[2025-04-15 10:33:04] Script completed without matching any condition
+[2025-04-15 10:33:15] Script started processing Instagram callback
+[2025-04-15 10:33:15] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:33:15] Session data at start: {"instagram_auth_state":"cdbbe2ab3cf8b18bc74084cf33755ccf"}
+[2025-04-15 10:33:15] Script completed without matching any condition
+[2025-04-15 10:33:23] Script started processing Instagram callback
+[2025-04-15 10:33:23] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:33:23] Session data at start: {"instagram_auth_state":"f21b3b36419b1c31835be172f3032bca"}
+[2025-04-15 10:33:23] Script completed without matching any condition
+[2025-04-15 10:33:29] Script started processing Instagram callback
+[2025-04-15 10:33:29] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:33:29] Session data at start: {"instagram_auth_state":"f21b3b36419b1c31835be172f3032bca"}
+[2025-04-15 10:33:29] Script completed without matching any condition
+[2025-04-15 10:35:14] Script started processing Instagram callback
+[2025-04-15 10:35:14] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:35:14] Session data at start: {"instagram_auth_state":"3fa024f8b391b642802322933ca6e3a1"}
+[2025-04-15 10:35:14] Script completed without matching any condition
+[2025-04-15 10:35:19] Script started processing Instagram callback
+[2025-04-15 10:35:19] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:35:19] Session data at start: {"instagram_auth_state":"89c8329e41efbd8fae702224b69e698f"}
+[2025-04-15 10:35:19] Script completed without matching any condition
+[2025-04-15 10:35:26] Script started processing Instagram callback
+[2025-04-15 10:35:26] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:35:26] Session data at start: {"instagram_auth_state":"4e21db43565b6d34fa8f68f51b596496"}
+[2025-04-15 10:35:26] Script completed without matching any condition
+[2025-04-15 10:35:26] Script started processing Instagram callback
+[2025-04-15 10:35:26] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:35:26] Session data at start: {"instagram_auth_state":"4e21db43565b6d34fa8f68f51b596496"}
+[2025-04-15 10:35:26] Script completed without matching any condition
+[2025-04-15 10:41:02] Script started processing Instagram callback
+[2025-04-15 10:41:02] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:41:02] Session data at start: {"instagram_auth_state":"29f2cd375f55b176e525f6e71787670b"}
+[2025-04-15 10:41:02] Script completed without matching any condition
+[2025-04-15 10:41:09] Script started processing Instagram callback
+[2025-04-15 10:41:09] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:41:09] Session data at start: {"instagram_auth_state":"974d0248dd8ceb5a6b7001576efafec9"}
+[2025-04-15 10:41:09] Script completed without matching any condition
+[2025-04-15 10:41:09] Script started processing Instagram callback
+[2025-04-15 10:41:09] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:41:09] Session data at start: {"instagram_auth_state":"974d0248dd8ceb5a6b7001576efafec9","auth_error":"Missing required parameters"}
+[2025-04-15 10:41:09] User denied authentication. Error: 1
+[2025-04-15 10:41:09] Script started processing Instagram callback
+[2025-04-15 10:41:09] Session already active. Session ID: e2ce308b5dce2a8c495a5b9def3311e6
+[2025-04-15 10:41:09] Session data at start: {"instagram_auth_state":"974d0248dd8ceb5a6b7001576efafec9","auth_error":"Missing required parameters","error":"Access denied. Please authorize the app to continue."}
+[2025-04-15 10:41:09] Script completed without matching any condition
