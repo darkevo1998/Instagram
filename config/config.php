@@ -6,12 +6,12 @@ define('DB_PASS', '');
 define('DB_NAME', 'instagram_app');
 
 // Instagram API Configuration
-define('INSTAGRAM_APP_ID', '1429645661731728');
-define('INSTAGRAM_APP_SECRET', '439309216533436792b63eaae35cdbe7');
-define('INSTAGRAM_REDIRECT_URI', 'http://localhost:8000/auth.php');
+define('INSTAGRAM_APP_ID', '9517033638379055');
+define('INSTAGRAM_APP_SECRET', '12245f7cc4e0e9cf00102f5a567c5c32');
+define('INSTAGRAM_REDIRECT_URI', 'http://localhost/instagram-testing/auth.php');
 
-define('FACEBOOK_APP_ID', '566178249247692');
-define('FACEBOOK_APP_SECRET', '32e43ac60d19e3fb2d93d055f6a30989');
+define('FACEBOOK_APP_ID', '653499260727590');
+define('FACEBOOK_APP_SECRET', 'd6cef6b30f0072398c6153f21120b037');
 
 // Base configuration
 define('APP_BASE_PATH', '/instagram-testing');

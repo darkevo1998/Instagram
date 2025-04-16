@@ -13,11 +13,11 @@ $accessToken = $_SESSION['instagram_access_token'];
 $userProfile = $_SESSION['instagram_user'];
 
 // Get user media
-$mediaData = $instagramAuth->getUserMedia($accessToken, 12);
+$mediaData = $instagramAuth->getUserMedia($userProfile['id'], $accessToken, 12);
 $mediaItems = $mediaData['data'] ?? [];
 ?>
 
-<div class="max-w-4xl mx-auto">
+<div class="max-w-4xl mx-auto min-h-screen">
     <div class="flex justify-between items-center mb-8">
         <h2 class="text-2xl font-bold text-gray-800">My Instagram Media</h2>
         <span class="text-gray-600"><?= count($mediaItems) ?> posts</span>
@@ -54,7 +54,7 @@ $mediaItems = $mediaData['data'] ?? [];
                         <p class="text-gray-800 text-sm mb-2 truncate"><?= htmlspecialchars($media['caption'] ?? 'No caption') ?></p>
                         
                         <div class="flex justify-between items-center">
-                            <a href="media-detail.php?id=<?= $media['id'] ?>" class="text-blue-500 text-sm hover:underline">View Details</a>
+                            <a href="<?= APP_BASE_PATH ?>/media/details/<?= $media['id'] ?>" class="text-blue-500 text-sm hover:underline">View Details</a>
                             <span class="text-gray-500 text-xs"><?= formatTimestamp($media['timestamp']) ?></span>
                         </div>
                     </div>

@@ -11,16 +11,15 @@ $instagramAuth = new InstagramAuth();
 $userProfile = $_SESSION['instagram_user'];
 ?>
 
-<div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+<div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden mt-8 mb-8 p-4 min-h-screen">
     <div class="md:flex">
         <div class="md:w-1/3 p-8 flex flex-col items-center">
             <div class="w-32 h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img src="https://via.placeholder.com/150" alt="Profile" class="w-full h-full object-cover">
             </div>
             <h2 class="text-xl font-bold text-gray-800"><?= htmlspecialchars($userProfile['username']) ?></h2>
-            <p class="text-gray-600 mb-4"><?= ucfirst($userProfile['account_type']) ?> Account</p>
             
-            <div class="bg-gray-100 rounded-lg p-4 w-full text-center">
+            <div class="bg-gray-100 rounded-lg p-4 w-full text-center mt-4">
                 <div class="flex justify-around">
                     <div>
                         <p class="font-bold text-gray-800"><?= $userProfile['media_count'] ?></p>
@@ -43,11 +42,7 @@ $userProfile = $_SESSION['instagram_user'];
                     <p class="text-sm font-medium text-gray-500">Account ID</p>
                     <p class="text-gray-800"><?= htmlspecialchars($userProfile['id']) ?></p>
                 </div>
-                
-                <div>
-                    <p class="text-sm font-medium text-gray-500">Account Type</p>
-                    <p class="text-gray-800"><?= ucfirst($userProfile['account_type']) ?></p>
-                </div>
+            
             </div>
             
             <div class="mt-8">
@@ -58,5 +53,9 @@ $userProfile = $_SESSION['instagram_user'];
         </div>
     </div>
 </div>
+
+<script>
+console.log(<?= json_encode($userProfile, JSON_PRETTY_PRINT) ?>);
+</script>
 
 <?php require_once __DIR__ . '/../includes/footer.php'; ?>

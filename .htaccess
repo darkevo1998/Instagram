@@ -1,5 +1,20 @@
-RewriteEngine On
-RewriteBase /instagram-testing/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L]
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /instagram-testing/
+    
+    # Redirect www to non-www (optional)
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+    
+    # Redirect trailing slashes to non-trailing
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+    
+    # Handle front controller
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+    
+    # Handle authorization header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>

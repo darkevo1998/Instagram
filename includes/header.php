@@ -42,13 +42,13 @@ $isLoggedIn = isset($_SESSION['instagram_access_token']);
             <!-- Navigation -->
             <?php if ($isLoggedIn): ?>
                 <div class="flex items-center space-x-4">
-                    <a href="profile.php" class="text-gray-600 hover:text-pink-600">
+                    <a href="<?= APP_BASE_PATH ?>/profile.php" class="text-gray-600 hover:text-pink-600">
                         <i class="fas fa-user"></i>
                     </a>
-                    <a href="media.php" class="text-gray-600 hover:text-pink-600">
+                    <a href="<?= APP_BASE_PATH ?>/media.php" class="text-gray-600 hover:text-pink-600">
                         <i class="fas fa-images"></i>
                     </a>
-                    <a href="logout.php" class="text-gray-600 hover:text-pink-600">
+                    <a href="<?= APP_BASE_PATH ?>/logout.php" class="text-gray-600 hover:text-pink-600">
                         <i class="fas fa-sign-out-alt"></i>
                     </a>
                 </div>
